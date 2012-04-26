@@ -10,11 +10,12 @@
 		785B9E2D1547976F00ACC983 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785B9E2C1547976F00ACC983 /* UIKit.framework */; };
 		785B9E2F1547976F00ACC983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785B9E2E1547976F00ACC983 /* Foundation.framework */; };
 		785B9E311547976F00ACC983 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785B9E301547976F00ACC983 /* CoreGraphics.framework */; };
-		785B9E371547976F00ACC983 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 785B9E351547976F00ACC983 /* InfoPlist.strings */; };
-		785B9E391547976F00ACC983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 785B9E381547976F00ACC983 /* main.m */; };
-		785B9E3D1547976F00ACC983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 785B9E3C1547976F00ACC983 /* AppDelegate.m */; };
-		785B9E401547976F00ACC983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785B9E3F1547976F00ACC983 /* ViewController.m */; };
-		785B9E431547976F00ACC983 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785B9E411547976F00ACC983 /* ViewController.xib */; };
+		785D083815491BAA00044652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 785D083015491BAA00044652 /* AppDelegate.m */; };
+		785D083915491BAA00044652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 785D083215491BAA00044652 /* InfoPlist.strings */; };
+		785D083A15491BAA00044652 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785D083415491BAA00044652 /* ViewController.xib */; };
+		785D083B15491BAA00044652 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785D083715491BAA00044652 /* ViewController.m */; };
+		785D084415491BD600044652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 785D084115491BD600044652 /* main.m */; };
+		785D084515491BD600044652 /* TestEmoji-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 785D084215491BD600044652 /* TestEmoji-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,15 @@
 		785B9E2C1547976F00ACC983 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		785B9E2E1547976F00ACC983 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		785B9E301547976F00ACC983 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		785B9E341547976F00ACC983 /* TestEmoji-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestEmoji-Info.plist"; sourceTree = "<group>"; };
-		785B9E361547976F00ACC983 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		785B9E381547976F00ACC983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		785B9E3A1547976F00ACC983 /* TestEmoji-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestEmoji-Prefix.pch"; sourceTree = "<group>"; };
-		785B9E3B1547976F00ACC983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		785B9E3C1547976F00ACC983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		785B9E3E1547976F00ACC983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		785B9E3F1547976F00ACC983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		785B9E421547976F00ACC983 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		785D082F15491BAA00044652 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		785D083015491BAA00044652 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		785D083315491BAA00044652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		785D083515491BAA00044652 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ViewController.xib; sourceTree = "<group>"; };
+		785D083615491BAA00044652 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		785D083715491BAA00044652 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		785D084115491BD600044652 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		785D084215491BD600044652 /* TestEmoji-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestEmoji-Info.plist"; sourceTree = "<group>"; };
+		785D084315491BD600044652 /* TestEmoji-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestEmoji-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +78,11 @@
 		785B9E321547976F00ACC983 /* TestEmoji */ = {
 			isa = PBXGroup;
 			children = (
-				785B9E3B1547976F00ACC983 /* AppDelegate.h */,
-				785B9E3C1547976F00ACC983 /* AppDelegate.m */,
-				785B9E3E1547976F00ACC983 /* ViewController.h */,
-				785B9E3F1547976F00ACC983 /* ViewController.m */,
-				785B9E411547976F00ACC983 /* ViewController.xib */,
+				785D082F15491BAA00044652 /* AppDelegate.h */,
+				785D083015491BAA00044652 /* AppDelegate.m */,
+				785D083115491BAA00044652 /* en.lproj */,
+				785D083615491BAA00044652 /* ViewController.h */,
+				785D083715491BAA00044652 /* ViewController.m */,
 				785B9E331547976F00ACC983 /* Supporting Files */,
 			);
 			path = TestEmoji;
@@ -90,12 +91,20 @@
 		785B9E331547976F00ACC983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				785B9E341547976F00ACC983 /* TestEmoji-Info.plist */,
-				785B9E351547976F00ACC983 /* InfoPlist.strings */,
-				785B9E381547976F00ACC983 /* main.m */,
-				785B9E3A1547976F00ACC983 /* TestEmoji-Prefix.pch */,
+				785D084115491BD600044652 /* main.m */,
+				785D084215491BD600044652 /* TestEmoji-Info.plist */,
+				785D084315491BD600044652 /* TestEmoji-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		785D083115491BAA00044652 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				785D083215491BAA00044652 /* InfoPlist.strings */,
+				785D083415491BAA00044652 /* ViewController.xib */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				785B9E371547976F00ACC983 /* InfoPlist.strings in Resources */,
-				785B9E431547976F00ACC983 /* ViewController.xib in Resources */,
+				785D083915491BAA00044652 /* InfoPlist.strings in Resources */,
+				785D083A15491BAA00044652 /* ViewController.xib in Resources */,
+				785D084515491BD600044652 /* TestEmoji-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,27 +170,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				785B9E391547976F00ACC983 /* main.m in Sources */,
-				785B9E3D1547976F00ACC983 /* AppDelegate.m in Sources */,
-				785B9E401547976F00ACC983 /* ViewController.m in Sources */,
+				785D083815491BAA00044652 /* AppDelegate.m in Sources */,
+				785D083B15491BAA00044652 /* ViewController.m in Sources */,
+				785D084415491BD600044652 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		785B9E351547976F00ACC983 /* InfoPlist.strings */ = {
+		785D083215491BAA00044652 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				785B9E361547976F00ACC983 /* en */,
+				785D083315491BAA00044652 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		785B9E411547976F00ACC983 /* ViewController.xib */ = {
+		785D083415491BAA00044652 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				785B9E421547976F00ACC983 /* en */,
+				785D083515491BAA00044652 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -272,6 +282,7 @@
 				785B9E481547976F00ACC983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
